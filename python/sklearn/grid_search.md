@@ -1,0 +1,6 @@
+    param_grid = {'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000] }
+    clf = model_selection.GridSearchCV(linear_model.LogisticRegression(penalty='l2'), param_grid)
+    clf.fit(data, labels)
+
+
+
