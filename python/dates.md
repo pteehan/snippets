@@ -12,5 +12,3 @@ format dates
 
     x = parse("20160901")
     x.strftime("%Y-%m-%d")
-
-
